@@ -16,7 +16,7 @@ namespace Example.TplDataflow
 			for (int i = 0; i < 10; i++)
 			{	
 				actionBlock.Post(i);
-                Console.WriteLine($"There are {actionBlock.InputCount} messages in the input queue.");
+				Shared.LogMessage(i);                
             }
 
 			actionBlock.Complete();
@@ -35,7 +35,7 @@ namespace Example.TplDataflow
 			for (int i = 0; i < 10; i++)
 			{				
 				await actionBlock.SendAsync(i);
-				Console.WriteLine($"There are {actionBlock.InputCount} messages in the input queue.");
+				Shared.LogMessage(i);
 			}
 
 			actionBlock.Complete();

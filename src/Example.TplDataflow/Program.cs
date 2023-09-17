@@ -5,7 +5,9 @@ internal class Program
 	{
 		Console.WriteLine("Starting dataflow examples");
 
-		ActionBlockExamples.ActionBlockExample();		
-		await ActionBlockExamples.ActionBlockAsyncExample();
+		//ActionBlockExamples.ActionBlockExample();		
+		//await ActionBlockExamples.ActionBlockAsyncExample();
+		TransformBlockExamples.TransformBlockExample();
+		await TransformBlockExamples.TransformBlockAsyncExample();
 	}	
 }	
