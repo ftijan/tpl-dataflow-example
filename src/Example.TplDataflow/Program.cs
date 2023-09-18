@@ -22,6 +22,8 @@ internal class Program
 		//BufferBlockExamples.BufferBlockSimpleExample();
 		//BufferBlockExamples.BufferBlockProducerConsumerExample();
 		//BufferBlockExamples.BufferBlockProducerConsumerWithBoundedProducerExample();
-		await BufferBlockExamples.BufferBlockProducerConsumerWithBoundedProducerFixedExample();
+		//await BufferBlockExamples.BufferBlockProducerConsumerWithBoundedProducerFixedExample();
+		// 06
+		await BroadcastBlockExamples.BroadcastBlockAsyncExample();
 	}	
 }	
