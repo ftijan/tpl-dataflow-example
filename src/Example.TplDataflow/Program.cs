@@ -16,7 +16,12 @@ internal class Program
 		//BatchBlockExamples.BatchBlockFixedExample();
 		//await BatchBlockExamples.BatchBlockFixedAsyncExample();
 		// 04
-		TransformManyBlockExamples.TransformManyBlockExample();
-		await TransformManyBlockExamples.TransformManyBlockAsyncExample();
+		//TransformManyBlockExamples.TransformManyBlockExample();
+		//await TransformManyBlockExamples.TransformManyBlockAsyncExample();
+		// 05
+		//BufferBlockExamples.BufferBlockSimpleExample();
+		//BufferBlockExamples.BufferBlockProducerConsumerExample();
+		//BufferBlockExamples.BufferBlockProducerConsumerWithBoundedProducerExample();
+		await BufferBlockExamples.BufferBlockProducerConsumerWithBoundedProducerFixedExample();
 	}	
 }	
