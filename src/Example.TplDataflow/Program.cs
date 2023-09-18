@@ -14,6 +14,9 @@ internal class Program
 		// Will throw:
 		//BatchBlockExamples.BatchBlockBadExample();
 		//BatchBlockExamples.BatchBlockFixedExample();
-		await BatchBlockExamples.BatchBlockFixedAsyncExample();
+		//await BatchBlockExamples.BatchBlockFixedAsyncExample();
+		// 04
+		TransformManyBlockExamples.TransformManyBlockExample();
+		await TransformManyBlockExamples.TransformManyBlockAsyncExample();
 	}	
 }	
