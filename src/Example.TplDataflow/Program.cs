@@ -27,6 +27,8 @@ internal class Program
 		//await BroadcastBlockExamples.BroadcastBlockAsyncExample();
 		// 07
 		//await JoinBlockExamples.JoinBlockAsyncExample();
-		await JoinBlockExamples.JoinBlockComplexAsyncExample();
+		//await JoinBlockExamples.JoinBlockComplexAsyncExample();
+		// 08
+		await BatchedJoinBlockExamples.BatchedJoinBlockAsyncExample();
 	}	
 }	

@@ -1,14 +1,11 @@
-﻿using System.Security.Cryptography;
-using System.Threading.Tasks.Dataflow;
+﻿using System.Threading.Tasks.Dataflow;
 
 namespace Example.TplDataflow
 {
 	internal static class JoinBlockExamples
 	{
 		internal static async Task JoinBlockAsyncExample()
-		{
-			// Removed bounded capacity, because the simple example causes droppped messages
-			// (when capacity = 1)
+		{			
 			var broadcastBlock = new BroadcastBlock<int>(a => a);				
 
 			var consumer1 = new TransformBlock<int, int>(async a => 
@@ -63,9 +60,7 @@ namespace Example.TplDataflow
 		}
 
 		internal static async Task JoinBlockComplexAsyncExample()
-		{
-			// Removed bounded capacity, because the simple example causes droppped messages
-			// (when capacity = 1)
+		{			
 			var broadcastBlock = new BroadcastBlock<int>(a => a);
 
 			var consumer1 = new TransformBlock<int, int>(async a =>
@@ -128,10 +123,7 @@ namespace Example.TplDataflow
 			consumer1.Complete();
 			consumer2.Complete();
 			await consumer1.Completion;
-			await consumer2.Completion;
-
-			//printBlock.Complete();
-			//await printBlock.Completion;
+			await consumer2.Completion;			
 
 			Console.WriteLine("Finished");
 		}
