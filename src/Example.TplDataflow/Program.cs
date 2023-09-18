@@ -29,6 +29,9 @@ internal class Program
 		//await JoinBlockExamples.JoinBlockAsyncExample();
 		//await JoinBlockExamples.JoinBlockComplexAsyncExample();
 		// 08
-		await BatchedJoinBlockExamples.BatchedJoinBlockAsyncExample();
+		//await BatchedJoinBlockExamples.BatchedJoinBlockAsyncExample();
+		// 09
+		//await WriteOnceBlockExamples.WriteOnceBlockExample();
+		await WriteOnceBlockExamples.WriteOnceBlockPipelineExample();
 	}	
 }	
