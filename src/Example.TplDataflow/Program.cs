@@ -42,6 +42,9 @@ internal class Program
 		// 13
 		//MultipleProducersExamples.MultipleProducersExample();
 		//await MultipleProducersExamples.MultipleProducersWithPropagationBadExample();
-		await MultipleProducersExamples.MultipleProducersWithPropagationFixedExample();
+		//await MultipleProducersExamples.MultipleProducersWithPropagationFixedExample();
+		// 14
+		//await ErrorHandlingExamples.ErrorHandlingExample();
+		await ErrorHandlingExamples.ErrorHandling2Example();
 	}	
 }	
