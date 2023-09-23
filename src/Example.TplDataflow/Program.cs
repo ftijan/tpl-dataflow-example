@@ -34,6 +34,8 @@ internal class Program
 		//await WriteOnceBlockExamples.WriteOnceBlockExample();
 		//await WriteOnceBlockExamples.WriteOnceBlockPipelineExample(); // + cancellation propagation example
 		// 10
-		await BlockAppendOptionExamples.BlockAppendOptionExample();
+		//await BlockAppendOptionExamples.BlockAppendOptionExample();
+		// 11
+		await BlockMaxMessagesOptionExamples.BlockMaxMessagesOptionExample();
 	}	
 }	
