@@ -45,6 +45,8 @@ internal class Program
 		//await MultipleProducersExamples.MultipleProducersWithPropagationFixedExample();
 		// 14
 		//await ErrorHandlingExamples.ErrorHandlingExample();
-		await ErrorHandlingExamples.ErrorHandling2Example();
+		//await ErrorHandlingExamples.ErrorHandling2Example();
+		// 15
+		await CustomBlocksExamples.CustomBlocksEncapsulateExample();
 	}	
 }	
