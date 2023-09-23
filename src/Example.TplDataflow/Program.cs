@@ -38,6 +38,10 @@ internal class Program
 		// 11
 		//await BlockMaxMessagesOptionExamples.BlockMaxMessagesOptionExample();
 		// 12
-		await BlockMessageFilteringOptionExamples.BlockMessageFilteringOptionExample();
+		//await BlockMessageFilteringOptionExamples.BlockMessageFilteringOptionExample();
+		// 13
+		//MultipleProducersExamples.MultipleProducersExample();
+		//await MultipleProducersExamples.MultipleProducersWithPropagationBadExample();
+		await MultipleProducersExamples.MultipleProducersWithPropagationFixedExample();
 	}	
 }	
