@@ -32,6 +32,8 @@ internal class Program
 		//await BatchedJoinBlockExamples.BatchedJoinBlockAsyncExample();
 		// 09
 		//await WriteOnceBlockExamples.WriteOnceBlockExample();
-		await WriteOnceBlockExamples.WriteOnceBlockPipelineExample();
+		//await WriteOnceBlockExamples.WriteOnceBlockPipelineExample(); // + cancellation propagation example
+		// 10
+		await BlockAppendOptionExamples.BlockAppendOptionExample();
 	}	
 }	
