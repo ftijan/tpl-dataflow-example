@@ -36,6 +36,8 @@ internal class Program
 		// 10
 		//await BlockAppendOptionExamples.BlockAppendOptionExample();
 		// 11
-		await BlockMaxMessagesOptionExamples.BlockMaxMessagesOptionExample();
+		//await BlockMaxMessagesOptionExamples.BlockMaxMessagesOptionExample();
+		// 12
+		await BlockMessageFilteringOptionExamples.BlockMessageFilteringOptionExample();
 	}	
 }	
