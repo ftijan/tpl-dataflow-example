@@ -44,7 +44,7 @@ namespace Example.TplDataflow
 		{
 			var block = new WriteOnceBlock<int>(a => a);
 			var printBlock = new ActionBlock<int>(a => Console.WriteLine($"Message {a} was received."));
-			block.LinkTo(printBlock);
+			block.LinkToWithPropagation(printBlock);
 
 			for (int i = 0; i < 10; i++)
 			{
@@ -72,10 +72,12 @@ namespace Example.TplDataflow
 				}
 			}
 
-			block.Complete();
-			await block.Completion;
+			//block.Complete();
+			//await block.Completion;
 
-			printBlock.Complete();
+			//printBlock.Complete();
+			// If block linked with completion propagation, unnecessary to complete and await individually
+			// Note: some blocks should never propagate completion or complete at all and keep should running indefinitely
 			await printBlock.Completion;
 
 			Console.WriteLine("Finished");
