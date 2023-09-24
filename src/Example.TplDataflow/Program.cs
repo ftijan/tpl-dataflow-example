@@ -58,6 +58,8 @@ internal class Program
 		//SingleProducerConstrainedExamples.SingleProducerConstrainedExample();
 		//await SingleProducerConstrainedExamples.SingleProducerConstrainedMultipleProducersBugExample();
 		// 19
-		await SharedResourceSchedulerExamples.SharedResourceSchedulerExample();
+		//await SharedResourceSchedulerExamples.SharedResourceSchedulerExample();
+		// 20
+		MaxMessagesPerTaskExamples.MaxMessagesPerTaskExample();
 	}	
 }	
