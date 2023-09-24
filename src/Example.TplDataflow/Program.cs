@@ -60,6 +60,8 @@ internal class Program
 		// 19
 		//await SharedResourceSchedulerExamples.SharedResourceSchedulerExample();
 		// 20
-		MaxMessagesPerTaskExamples.MaxMessagesPerTaskExample();
+		//MaxMessagesPerTaskExamples.MaxMessagesPerTaskExample();
+		// 21
+		MonitoringExamples.MonitoringExample();
 	}	
 }	
