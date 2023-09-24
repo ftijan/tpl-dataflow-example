@@ -54,5 +54,8 @@ internal class Program
 		//PerformanceBaselineExamples.PerformanceBaselineExample();
 		//PerformanceBaselineExamples.PerformanceBaselineMultithreadsExample();
 		//PerformanceBaselineExamples.PerformanceBaselineNonTplExample();
+		// 18
+		//SingleProducerConstrainedExamples.SingleProducerConstrainedExample();
+		await SingleProducerConstrainedExamples.SingleProducerConstrainedMultipleProducersBugExample();
 	}	
 }	
