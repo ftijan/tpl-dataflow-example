@@ -47,6 +47,8 @@ internal class Program
 		//await ErrorHandlingExamples.ErrorHandlingExample();
 		//await ErrorHandlingExamples.ErrorHandling2Example();
 		// 15
-		await CustomBlocksExamples.CustomBlocksEncapsulateExample();
+		//await CustomBlocksExamples.CustomBlocksEncapsulateExample();
+		// 16
+		await CustomBlocksInheritanceExamples.GuaranteedDeliveryBroadcastBlockExample();
 	}	
 }	
