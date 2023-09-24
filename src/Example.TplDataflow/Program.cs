@@ -56,6 +56,8 @@ internal class Program
 		//PerformanceBaselineExamples.PerformanceBaselineNonTplExample();
 		// 18
 		//SingleProducerConstrainedExamples.SingleProducerConstrainedExample();
-		await SingleProducerConstrainedExamples.SingleProducerConstrainedMultipleProducersBugExample();
+		//await SingleProducerConstrainedExamples.SingleProducerConstrainedMultipleProducersBugExample();
+		// 19
+		await SharedResourceSchedulerExamples.SharedResourceSchedulerExample();
 	}	
 }	
