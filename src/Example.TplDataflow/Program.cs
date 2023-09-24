@@ -49,6 +49,10 @@ internal class Program
 		// 15
 		//await CustomBlocksExamples.CustomBlocksEncapsulateExample();
 		// 16
-		await CustomBlocksInheritanceExamples.GuaranteedDeliveryBroadcastBlockExample();
+		//await CustomBlocksInheritanceExamples.GuaranteedDeliveryBroadcastBlockExample();
+		// 17
+		//PerformanceBaselineExamples.PerformanceBaselineExample();
+		//PerformanceBaselineExamples.PerformanceBaselineMultithreadsExample();
+		//PerformanceBaselineExamples.PerformanceBaselineNonTplExample();
 	}	
 }	
